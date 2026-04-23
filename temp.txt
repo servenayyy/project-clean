@@ -13,3 +13,4 @@
 "home" 
 "layout" 
 "navbar" 
+"products" 
