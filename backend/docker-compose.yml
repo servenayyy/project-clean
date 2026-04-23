@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: garipticaret_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: garipticaret
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 12345678
+    ports:
+      - "5432:5432"
+    volumes:
+      - garipticaret_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  garipticaret_postgres_data:
