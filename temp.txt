@@ -12,3 +12,4 @@
 "init 2" 
 "home" 
 "layout" 
+"navbar" 
