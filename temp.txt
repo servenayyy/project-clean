@@ -16,3 +16,4 @@
 "products" 
 "api" 
 "cart" 
+"wishlist" 
